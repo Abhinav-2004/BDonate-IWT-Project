@@ -181,17 +181,17 @@
     <div id="division-4" class="division-4-class">
       <strong>TEAM</strong>
       <div class="container">
-        <img src="./components/assets/images/anurag.png" alt="" />
-        <img src="./components/assets/images/animesh.webp" alt="" />
-        <img src="./components/assets/images/aditya.png" alt="" />
-        <img src="components/assets/images/sayeda.jpg" alt="" />
+        <img src="./components/assets/images/kittu.jpg" alt="" />
+        <img src="./components/assets/images/himanshu.jpg" alt="" />
+        <img src="./components/assets/images/kittu.jpg" alt="" />
+        <img src="components/assets/images/kittu.jpg" alt="" />
 
       </div>
       <div class="team-name">
-        <h2>Anurag</h2>
-        <h2>Animesh</h2>
-        <h2>Aditya</h2>
-        <h2>Sayeda</h2>
+        <h2>Abhinav</h2>
+        <h2>Himanshu</h2>
+        <h2>Anubhav</h2>
+        <h2>Samyak</h2>
       </div>
     </div>
 
@@ -403,7 +403,7 @@
         </div>
       </div>
     </div>
-    <div class="footer">Copyright Â© 2023-24</div>   
+    <div class="footer">Copyright © 2023-24</div>   
 	<script>
     	function redirectToDonationForm() {
     		let isValid = <%= isValid %>;

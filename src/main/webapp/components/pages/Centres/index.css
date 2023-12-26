@@ -6,11 +6,17 @@ body {
   margin: 0px;
 }
 
+
 nav {
   display: flex;
   box-shadow: 0 0.125rem 0.25rem rgb(123 56 50 / 15%);
 }
 
+nav img {
+  margin-left: 2%;
+  width: 10%;
+  margin-top: 2%;
+}
 .nav-img {
   margin-left: 10%;
   width: 65%;
@@ -43,33 +49,8 @@ nav {
   margin-left: 7%;
 }
 
-.borderCSS a:before,
-.borderCSS a:after {
-  position: absolute;
-  opacity: 0.5;
-  height: 100%;
-  width: 2px;
-  content: "";
-  background: #fd6969;
-  transition: all 0.3s;
-}
 
-.borderCSS a:before {
-  left: 0px;
-  top: 0px;
-}
 
-.borderCSS a:after {
-  right: 0px;
-  bottom: 0px;
-}
-
-.borderCSS a:hover:before,
-.borderCSS a:hover:after {
-  opacity: 1;
-  height: 2px;
-  width: 100%;
-}
 
 .tools {
   display: grid;
@@ -93,20 +74,14 @@ nav {
   background: #cc4b00;
 }
 
-#Donate_now button:hover {
-  background: rgb(243, 152, 34);
-}
+
 
 #login button,
 #signup button {
   color: #722282;
 }
 
-#login button:hover,
-#signup button:hover {
-  color: rgb(255, 0, 183);
-  background: rgba(0, 0, 0, 0.971);
-}
+
 .content-page {
   margin-top: 1%;
 }
@@ -128,9 +103,7 @@ nav {
   font-size: larger;
   font-weight: 700;
 }
-.div1 li ::after {
-  content: "/";
-}
+
 .div1 p {
   font-size: large;
   color: #722282;
@@ -183,9 +156,7 @@ nav {
   border-left: 7px solid black;
   border-bottom: 5px solid green;
 }
-#loc_div div:hover {
-  cursor: pointer;
-}
+
 #loc_div p {
   color: #000000;
   text-align: center;
@@ -246,20 +217,12 @@ nav {
   font-family: cursive;
   font-weight: bolder;
 }
-#loc_div a:hover {
-  color: #000000;
-  font-size: 101%;
-  transition: font-size 0.3ms ease-in-out;
-}
 
-#loc_div div:hover {
-  transform: rotateZ(5deg);
-  transition: transform 330ms ease-in-out;
-}
+
 
 #division-5 {
   background-color: rgba(143, 133, 133, 0.253);
-  margin-top: -100px;;
+  margin-top: 30px;;
 }
 .division-five {
   display: flex;

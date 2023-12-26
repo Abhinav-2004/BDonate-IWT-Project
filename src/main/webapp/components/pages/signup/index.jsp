@@ -73,28 +73,33 @@
             <div class="remain">
               <label for="email">Email<span class="red-star">*</span></label>
               <input type="email" id="email" name="email" />
-              <label for="password">Password<span class="red-star">*</span></label>
-              <input type="password" id="password" name="password" />
+              <label for="password"
+                >Password<span class="red-star">*</span></label
+              >
+              <input type="password" id="password" />
               <label for="name">Name<span class="red-star">*</span></label>
-              <input type="text" id="name" name="name" />
+              <input type="text" id="name" />
               <div class="blood_div">
-                <label for="blood-group">Blood-Group<span class="red-star">*</span>
-                  <select id="blood_selector" name="blood_selector">
+                <label for="blood-group"
+                  >Blood-Group<span class="red-star">*</span>
+                  <select name="Blood Group" id="blood_selector">
                     <option value="A">A</option>
                     <option value="B">B</option>
                     <option value="AB">AB</option>
                     <option value="O">O</option>
                   </select>
-                  <select id="rh-selector" name="rh-selector">
+                  <select name="RH" id="rh-selector">
                     <option value="pos">+ (positive)</option>
                     <option value="neg">- (negative)</option>
                   </select>
                 </label>
               </div>
               <br /><br />
-              <label for="address">Address<span class="red-star">*</span></label>
-              <input type="text" id="address" name="address"/>
-              <div class="image-block"></div>
+              <label for="address"
+                >Address<span class="red-star">*</span></label
+              >
+              <input type="text" id="address" />
+              
             </div>
             <input type="submit" id="submit" value="Register" />
           </div>

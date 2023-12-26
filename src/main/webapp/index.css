@@ -52,33 +52,8 @@ nav img {
   margin-left: 7%;
 }
 
-.borderCSS a:before,
-.borderCSS a:after {
-  position: absolute;
-  opacity: 0.5;
-  height: 100%;
-  width: 2px;
-  content: "";
-  background: #fd6969;
-  transition: all 0.3s;
-}
 
-.borderCSS a:before {
-  left: 0px;
-  top: 0px;
-}
 
-.borderCSS a:after {
-  right: 0px;
-  bottom: 0px;
-}
-
-.borderCSS a:hover:before,
-.borderCSS a:hover:after {
-  opacity: 1;
-  height: 2px;
-  width: 100%;
-}
 
 .tools {
   display: grid;
@@ -102,20 +77,14 @@ nav img {
   background: #cc4b00;
 }
 
-#Donate_now button:hover {
-  background: rgb(243, 152, 34);
-}
+
 
 #login button,
 #signup button {
   color: #722282;
 }
 
-#login button:hover,
-#signup button:hover {
-  color: rgb(255, 0, 183);
-  background: rgba(0, 0, 0, 0.971);
-}
+
 
 .header_page {
   display: grid;
@@ -161,9 +130,7 @@ nav img {
   font-weight: 750;
   cursor: pointer;
 }
-#appointment button:hover {
-  background: rgb(243, 152, 34);
-}
+
 .division-2 {
   display: flex;
   justify-content: center;
@@ -336,13 +303,6 @@ nav img {
   align-items: center;
   gap: 15%;
   margin-top: 7%;
-}
-.container:hover img {
-  opacity: 0.6;
-}
-.container img:hover {
-  transform: perspective(800px) rotateY(0deg);
-  opacity: 1;
 }
 
 .team-name {

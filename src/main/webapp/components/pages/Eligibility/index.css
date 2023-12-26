@@ -6,11 +6,17 @@ body {
   margin: 0px;
 }
 
+
 nav {
   display: flex;
   box-shadow: 0 0.125rem 0.25rem rgb(123 56 50 / 15%);
 }
 
+nav img {
+  margin-left: 2%;
+  width: 10%;
+  margin-top: 2%;
+}
 .nav-img {
   margin-left: 10%;
   width: 65%;
@@ -43,33 +49,8 @@ nav {
   margin-left: 7%;
 }
 
-.borderCSS a:before,
-.borderCSS a:after {
-  position: absolute;
-  opacity: 0.5;
-  height: 100%;
-  width: 2px;
-  content: "";
-  background: #fd6969;
-  transition: all 0.3s;
-}
 
-.borderCSS a:before {
-  left: 0px;
-  top: 0px;
-}
 
-.borderCSS a:after {
-  right: 0px;
-  bottom: 0px;
-}
-
-.borderCSS a:hover:before,
-.borderCSS a:hover:after {
-  opacity: 1;
-  height: 2px;
-  width: 100%;
-}
 
 .tools {
   display: grid;
@@ -93,20 +74,14 @@ nav {
   background: #cc4b00;
 }
 
-#Donate_now button:hover {
-  background: rgb(243, 152, 34);
-}
+
 
 #login button,
 #signup button {
   color: #722282;
 }
 
-#login button:hover,
-#signup button:hover {
-  color: rgb(255, 0, 183);
-  background: rgba(0, 0, 0, 0.971);
-}
+
 body {
   background-repeat: no-repeat;
   background-size: 200%;
@@ -206,10 +181,7 @@ summary {
   }
 }
 
-.card:hover {
-  animation: shake 0.5s;
-  animation-iteration-count: 2;
-}
+
 
 .BasicRequirements {
   background: aquamarine;
@@ -260,16 +232,8 @@ summary {
   padding: 3%;
 }
 
-.basic summary:hover {
-  color: white;
-}
 
-.card:hover,
-.BasicRequirements:hover,
-.basic:hover {
-  animation: shake 0.5s;
-  animation-iteration-count: 2;
-}
+
 
 .final {
   background-image: url("../../assets/images/eligibility_bg.png");

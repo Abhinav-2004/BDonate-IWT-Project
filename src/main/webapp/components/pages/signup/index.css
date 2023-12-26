@@ -15,6 +15,7 @@ body {
   margin: 0;
   padding: 0px;
 }
+/*
 .page {
   background: #e2e2e5;
   display: flex;
@@ -164,7 +165,7 @@ input::-moz-focus-inner {
   border-radius: 30px;
   background: black;
   color: white;
-}
+}*/
 
 nav {
   display: flex;
@@ -208,15 +209,20 @@ nav img {
   margin-left: 7%;
 }
 
-.borderCSS a:before,
+.borderCSS a:hover {
+  color: #cc4b00;
+  font-size: 4rem solid;
+}
+
+/*.borderCSS a:before,
 .borderCSS a:after {
-  position: absolute;
+  position: fixed;
   opacity: 0.5;
   height: 100%;
   width: 2px;
   content: "";
   background: #fd6969;
-  transition: all 0.3s;
+  /*transition: all 0.3s;
 }
 
 .borderCSS a:before {
@@ -234,7 +240,7 @@ nav img {
   opacity: 1;
   height: 2px;
   width: 100%;
-}
+}*/
 
 .tools {
   display: grid;
@@ -286,4 +292,63 @@ nav img {
 
 .image-block {
   display: flex;
+}
+
+.container {
+  background-color: #474a59;
+  border-radius: 8px;
+  box-shadow: 0px 0px 40px 16px rgba(0, 0, 0, 0.22);
+  color: #f1f1f2;
+  overflow: hidden;
+  width: 400px;
+  height: 550px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 4%;
+  margin-left: 38%;
+}
+
+label {
+  color: #c2c2c5;
+  display: block;
+  font-size: 16px;
+  height: 16px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+input {
+  background: transparent;
+  border: 0.8px solid #ccc;
+  color: #f2f2f2;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  outline: none !important;
+  width: 100%;
+  
+}
+
+#submit {
+  color: black;
+  transition: color 300ms;
+  border-radius: 25px;
+  margin-top: 9%;
+  font-size: 136%;
+  font-weight: bolder;
+  background-color: #cc4b00;
+  cursor: pointer;
+
+}
+
+.form {
+  margin: 14px;
+  position: absolute;
+}
+
+#submit:focus {
+  color: #f2f2f2;
+}
+#submit:active {
+  color: #d0d0d2;
 }

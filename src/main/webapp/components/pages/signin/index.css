@@ -1,14 +1,4 @@
-@import url("https://rsms.me/inter/inter-ui.css");
-@import "https://fonts.googleapis.com/css?family=Raleway";
-::selection {
-  background: #2d2f36;
-}
-::-webkit-selection {
-  background: #2d2f36;
-}
-::-moz-selection {
-  background: #2d2f36;
-}
+
 body {
   background: white;
   font-family: "Inter UI", sans-serif;
@@ -24,79 +14,16 @@ body {
   place-content: center;
   width: 100%;
 }
-@media (max-width: 767px) {
-  .page {
-    height: auto;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-  }
-}
+
 .container {
   display: flex;
   height: 320px;
   margin: 0 auto;
   width: 640px;
 }
-@media (max-width: 767px) {
-  .container {
-    flex-direction: column;
-    height: 630px;
-    width: 320px;
-  }
-}
-.left {
-  background: white;
-  height: calc(100% - 40px);
-  top: 20px;
-  position: relative;
-  width: 50%;
-}
-@media (max-width: 767px) {
-  .left {
-    height: 100%;
-    left: 20px;
-    width: calc(100% - 40px);
-    max-height: 270px;
-  }
-}
-.login {
-  font-size: 50px;
-  font-weight: 900;
-  margin-top: 20px;
-  margin-left: 40px;
-  margin-right: 20px;
-}
-.eula {
-  color: #999;
-  font-size: 14px;
-  line-height: 1.5;
-  margin: 40px;
-}
-.right {
-  background: #474a59;
-  box-shadow: 0px 0px 40px 16px rgba(0, 0, 0, 0.22);
-  color: #f1f1f2;
-  position: relative;
-  width: 50%;
-}
-@media (max-width: 767px) {
-  .right {
-    flex-shrink: 0;
-    height: 100%;
-    width: 100%;
-    max-height: 350px;
-  }
-}
-svg {
-  position: absolute;
-  width: 320px;
-}
-path {
-  fill: none;
-  stroke: url(#linearGradient);
-  stroke-width: 4;
-  stroke-dasharray: 240 1386;
-}
+
+
+
 .form {
   margin: 40px;
   position: absolute;
@@ -109,37 +36,31 @@ label {
   margin-top: 20px;
   margin-bottom: 5px;
 }
-input {
+#email {
   background: transparent;
   border: 0;
   color: #f2f2f2;
   font-size: 20px;
   height: 30px;
-  line-height: 30px;
-  outline: none !important;
+  
   width: 100%;
 }
-input::-moz-focus-inner {
+
+#password {
+  background: transparent;
   border: 0;
+  color: #f2f2f2;
+  font-size: 20px;
+  height: 30px;
+  
+  width: 100%;
 }
+
 #submit {
   color: #707075;
   margin-top: 40px;
   transition: color 300ms;
   cursor: pointer;
-}
-#submit:hover {
-  color: black;
-  border-radius: 25px;
-  font-size: 136%;
-  font-weight: bolder;
-  cursor: pointer;
-}
-#submit:focus {
-  color: #f2f2f2;
-}
-#submit:active {
-  color: #d0d0d2;
 }
 
 nav {
@@ -184,33 +105,7 @@ nav img {
   margin-left: 7%;
 }
 
-.borderCSS a:before,
-.borderCSS a:after {
-  position: absolute;
-  opacity: 0.5;
-  height: 100%;
-  width: 2px;
-  content: "";
-  background: #fd6969;
-  transition: all 0.3s;
-}
 
-.borderCSS a:before {
-  left: 0px;
-  top: 0px;
-}
-
-.borderCSS a:after {
-  right: 0px;
-  bottom: 0px;
-}
-
-.borderCSS a:hover:before,
-.borderCSS a:hover:after {
-  opacity: 1;
-  height: 2px;
-  width: 100%;
-}
 
 .tools {
   display: grid;
@@ -234,17 +129,44 @@ nav img {
   background: #cc4b00;
 }
 
-#Donate_now button:hover {
-  background: rgb(243, 152, 34);
-}
 
 #login button,
 #signup button {
   color: #722282;
 }
 
-#login button:hover,
-#signup button:hover {
-  color: rgb(255, 0, 183);
-  background: rgba(0, 0, 0, 0.971);
+
+.login-container {
+  background-color: #474a59;
+  border-radius: 8px;
+  box-shadow: 0px 0px 40px 16px rgba(0, 0, 0, 0.22);
+  color: #f1f1f2;
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 4%;
+  margin-left: 38%;
 }
+
+.login-container h2 {
+  color: #ffffff;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+
+
+#submit{
+  background-color: #cc4b00;
+  color: white;
+  padding: 15px 25px;
+  border: 2px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: medium;
+}
+
