@@ -41,17 +41,14 @@
             
            
                 
-                <form action="Signin.jsp" method="POST">
-                <div class="login-container">
-	       			 <h2>Login</h2>
-	       			 <div class="input-group">
-	          		<input type="email" id="email" name="email" placeholder="Username" required>
-	        		</div>
-	        		<div class="input-group">
-	         	 	<input type="password" id="password" placeholder="Password" required>
-	        		</div>
-	        		<input type="submit" id="submit" value="Log In" />
-      			</div>
+                 <form action="Signin.jsp" method="POST">
+                    <div class="form">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email"/>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password"/>
+                        <input type="submit" id="submit" value="Log In" />
+                    </div>
                 </form>
  
     </div>
